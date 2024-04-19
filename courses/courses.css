@@ -208,6 +208,28 @@
   padding-bottom: 45px;
   gap: 30px;
 }
+.wrapper main .course-cards .container .all-courses .best-sellers {
+  border: 1px solid #22C55E;
+  width: 100px;
+  text-align: center;
+  background-color: #22C55E;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  bottom: -20px;
+  left: 645px;
+}
+.wrapper main .course-cards .container .all-courses .best-sellers2 {
+  border: 1px solid #22C55E;
+  width: 100px;
+  text-align: center;
+  background-color: #22C55E;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  top: 355px;
+  left: 200px;
+}
 .wrapper main .course-cards .container .all-courses:hover {
   cursor: pointer;
 }
