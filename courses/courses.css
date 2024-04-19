@@ -247,6 +247,22 @@
   border-bottom-right-radius: 10px;
   padding-top: 23px;
 }
+.wrapper main .course-cards .container .all-courses .course-line .course-text1 .orgprice {
+  color: #9397AD;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  top: 701px;
+  right: 445px;
+}
+.wrapper main .course-cards .container .all-courses .course-line .course-text1 .orgprice2 {
+  color: #9397AD;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  bottom: -916px;
+  left: 705px;
+}
 .wrapper main .course-cards .container .all-courses .course-line .course-text1 h5 {
   font-size: 22px;
   font-weight: 700;
