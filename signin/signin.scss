@@ -25,16 +25,16 @@
         }
     
         &:hover{
-            background-color: rgb(247, 243, 243);
-            border: 1px solid rgb(247, 243, 243);
+            background-color: #EFF2FC;
+            border: 1px solid #EFF2FC;
             color: #191919;
             transition: 0.4s;
         }
     }
     
     .btn-white-s {
-        background-color: rgb(247, 243, 243);
-        border: 1px solid rgb(247, 243, 243);
+        background-color: #EFF2FC;
+        border: 1px solid #EFF2FC;
         color: #191919;
         padding: 6.5px 23px;
         font-weight: 600;
@@ -189,18 +189,17 @@
                     font-size: 18px;
                 }
 
-                form{
-
-                    input{
-                        height: 40px;
-                        width: 490px;
-                        border-radius: 5px;
-                        padding: 20px 45px 20px 20px;
-                        border: 1px solid #D4D7E5;
-                        position: relative;
-                        bottom: 5px;
-                        }
-                }
+                
+                input{
+                    height: 40px;
+                    width: 490px;
+                    border-radius: 5px;
+                    padding: 20px 45px 20px 20px;
+                    border: 1px solid #D4D7E5;
+                    position: relative;
+                    bottom: 5px;
+                    }
+                
 
                 .signinpassword{
                     padding-top: 20px;

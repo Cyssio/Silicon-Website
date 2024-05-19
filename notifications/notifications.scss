@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Inter:wght@300;400;500;700;900&display=swap");
-
 *{
     padding: 0;
     margin: 0;
@@ -79,92 +76,27 @@
                 }
         }
     
-        .switch {
-            display:flex;
-            padding-top: 7px;
-            position: relative;
-            left: 310px;
-            top: 3px;
-        
-            input {
-                opacity: 0;
-                width: 0;
-                height: 0;
-            }
-        
-            label {
-                position: relative;
-        
-                .sliderround {
-                    display: inline-block;
-                    width: 68px;
-                    height: 33px;
-                    background-color: #565973;
-                    border-radius: 200px;
-                    cursor: pointer;
-                    transition: 0.3s;
-                    position: relative;
-        
-                    &::before {
-                        position: absolute;
-                        content: "";
-                        width: 30px;
-                        height: 29px;
-                        background-color: white;
-                        transition: 0.3s;
-                        border-radius: 200px;
-                        top: 2px;
-                        left: 2px;
-                    }
-                }
-        
-                input:checked + .sliderround {
-                    background-color: #6366f1;
-                }
-        
-                input:checked + .sliderround::before {
-                    transform: translateX(34px);
-                }
-            }
-    
-            p{
-                color: #565973;
-                font-size: 18px;   
-                font-weight: 500;
-            }
-            .lightswitch {
-                padding-right: 10px;
-                padding-top: 3px;
-            }
-    
-            .darkswitch {
-                padding-left: 12px;
-                padding-top: 3px;
-            }
-        }
         
        #profilepic{
         width: 46px;
         position: relative;
-        left: 175px;
+        left: 335px;
        }
         
     }
-
 
     main{
         padding-top: 20px;
         .container{
 
             .account-profile{
-                
                 width: 340px;
                 border: 2px solid;
                 border-left: none;
                 border-top: none;
                 border-bottom: none;
                 border-color: #E2E5F1;
-                height: 1180px;
+                height: 900px;
 
                 .acc-profileinfo{
                     padding-left: 10px;
@@ -247,136 +179,108 @@
 
             }
 
-            .account-details{
+            .notifications{
                 position: absolute;
                 left: 740px;
-                bottom: -265px;
-                width: 855px;
+                bottom: 90px;
+                width: 860px;
 
                 h2{
                     font-size: 40px;
                     font-weight: 700;
-                    
                 }
 
-                h6{
-                    font-size: 23px;
-                    color: #6366f1;
-                    font-weight: 700;
-                    padding-top: 20px;
-                }
-
-                .acc-buttons{
-                    padding-bottom: 20px;
-                    position: relative;
-                    bottom: 15px;
-                }
-
-                h6{
-                    padding-bottom: 20px;
-                }
-
-                .basic-info{
-                    border: 1px solid;
-                    border-top: none;
-                    border-left: none;
-                    border-right: none;
-                    border-color: #E2E5F1;
-
-                    .form-details{
-                        display: grid;
-                        grid-template-columns: 1fr 1fr;
-                        gap: 30px;
-
-                        .formpositioning{
-                            position: relative;
-                            bottom: 15px;
-                        }
-
-                        .formpositioning2{
-                            position: relative;
-                            bottom: 30px;
-                        }
-
-                        p{
-                            font-weight: 600;
-                            font-size: 18px;
-                        }
-    
-                        input{
-                            height: 40px;
-                            width: 413px;
-                            border-radius: 5px;
-                            padding: 20px 45px 20px 20px;
-                            border: 1px solid #D4D7E5;
-                            position: relative;
-                            bottom: 12px;
-                            }
-
-                            textarea{
-                                width: 207%;
-                                height: 100px;
-                                padding: 10px 20px 20px 20px;
-                                border-radius: 5px;
-                                border: 1px solid #D4D7E5;
-                                resize: none;
-                                position: relative;
-                                bottom: 12px;
-                            }
-                    }
-                }
-
-                .acc-address{
-                    padding-top: 20px;
-                    border: 1px solid;
-                    border-bottom: none;
-                    border-left: none;
-                    border-right: none;
-                    border-color: #E2E5F1;
-
+                .email-notify{
+                    padding-top: 30px;
+                    padding-bottom: 30px;
                     p{
-                        font-weight: 600;
-                        font-size: 18px;
-                    }
-
-                    .addresspadding{
-                        padding-top: 20px;
-                        padding-bottom: 20px;
+                        font-size: 20px;
+                        font-weight: 500;
                     }
 
                     input{
-                        height: 40px;
+                        height: 50px;
                         width: 413px;
                         border-radius: 5px;
                         padding: 20px 45px 20px 20px;
                         border: 1px solid #D4D7E5;
                         position: relative;
                         bottom: 12px;
+                        font-size: 18px;
                         }
-
-                        .address-input{
-                            height: 40px;
-                            width: 100%;
-                        }
-
-                    .form-details2{
-                        display: grid;
-                        grid-template-columns: 1fr 1fr;
-                        gap: 30px;
-                    }
-
-                    .acc-buttons{
-                        margin-top: 40px;
-                    }
                 }
+
+                .sub-notify{
+                    display: flex;
+                    gap: 15px;
+                    padding-bottom: 15px;
+
+                    .noti-sliders{
+                       position: relative;
+
+                        .sliderround {
+                            display: inline-block;
+                            width: 68px;
+                            height: 33px;
+                            background-color: #565973;
+                            border-radius: 200px;
+                            cursor: pointer;
+                            transition: 0.3s;
+                            position: relative;
+                            
+                            &::before {
+                                position: absolute;
+                                content: "";
+                                width: 30px;
+                                height: 29px;
+                                background-color: white;
+                                transition: 0.3s;
+                                border-radius: 200px;
+                                top: 2px;
+                                left: 2px;
+                            }
+
+                        }
+
+                        input{
+                            width: 100px;
+                            display: none;
+                        }
                 
+                        input:checked + .sliderround {
+                            background-color: #22C55E;
+                        }
+                
+                        input:checked + .sliderround::before {
+                            transform: translateX(34px);
+                        }
+                    
+                    }
+
+                    .notify-slidertext{
+                    
+                        h6{
+                            font-weight: 700;
+                            font-size: 17px;
+                        }
+                        p{
+                            color: #9397AD;
+                        }
+                    }
+                   
+                }
+
+                .acc-buttons{
+                    padding-top: 300px;
+                }
             }
+
+           
         }
     }
 
-
     footer{
-        padding-top: 100px;
+        padding-top: 180px;
         
         .container{
 
@@ -418,5 +322,4 @@
             }
         }
     }
-
 }

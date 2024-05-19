@@ -21,14 +21,14 @@
   font-size: 0.9em;
 }
 .wrapper .btn-purple-s:hover {
-  background-color: rgb(247, 243, 243);
-  border: 1px solid rgb(247, 243, 243);
+  background-color: #EFF2FC;
+  border: 1px solid #EFF2FC;
   color: #191919;
   transition: 0.4s;
 }
 .wrapper .btn-white-s {
-  background-color: rgb(247, 243, 243);
-  border: 1px solid rgb(247, 243, 243);
+  background-color: #EFF2FC;
+  border: 1px solid #EFF2FC;
   color: #191919;
   padding: 6.5px 23px;
   font-weight: 600;

@@ -21,14 +21,14 @@
   font-size: 0.9em;
 }
 .wrapper .btn-purple-s:hover {
-  background-color: rgb(247, 243, 243);
-  border: 1px solid rgb(247, 243, 243);
+  background-color: #EFF2FC;
+  border: 1px solid #EFF2FC;
   color: #191919;
   transition: 0.4s;
 }
 .wrapper .btn-white-s {
-  background-color: rgb(247, 243, 243);
-  border: 1px solid rgb(247, 243, 243);
+  background-color: #EFF2FC;
+  border: 1px solid #EFF2FC;
   color: #191919;
   padding: 6.5px 23px;
   font-weight: 600;
@@ -140,6 +140,10 @@
   align-items: center;
   justify-content: center;
   padding-right: 80px;
+}
+.wrapper main .container .input-validation-error {
+  border: 0.063rem solid darkred !important;
+  color: darkred;
 }
 .wrapper main .container .createacctext h2 {
   font-size: 48px;

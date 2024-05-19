@@ -25,16 +25,16 @@
         }
     
         &:hover{
-            background-color: rgb(247, 243, 243);
-            border: 1px solid rgb(247, 243, 243);
+            background-color: #EFF2FC;
+            border: 1px solid #EFF2FC;
             color: #191919;
             transition: 0.4s;
         }
     }
     
     .btn-white-s {
-        background-color: rgb(247, 243, 243);
-        border: 1px solid rgb(247, 243, 243);
+        background-color: #EFF2FC;
+        border: 1px solid #EFF2FC;
         color: #191919;
         padding: 6.5px 23px;
         font-weight: 600;
@@ -166,6 +166,11 @@
             justify-content: center;
             padding-right: 80px;
 
+            .input-validation-error {
+                border: 0.063rem solid darkred !important;
+                color: darkred;
+            }
+
             .createacctext{
                 h2{
                     font-size: 48px;
@@ -205,6 +210,8 @@
                         padding: 20px 45px 20px 20px;
                         border: 1px solid #D4D7E5;
                     }
+
+                    
                 }
 
                 .emailpassconf{

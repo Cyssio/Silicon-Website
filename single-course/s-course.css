@@ -1,0 +1,291 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper .btn-purple-s {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+.wrapper .btn-purple-s i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+.wrapper .btn-purple-s:hover {
+  background-color: #EFF2FC;
+  border: 1px solid #EFF2FC;
+  color: #191919;
+  transition: 0.3s;
+}
+.wrapper .btn-white-s {
+  position: relative;
+  margin-right: 10px;
+  background-color: #EFF2FC;
+  border: 1px solid #EFF2FC;
+  color: #191919;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+.wrapper .btn-white-s i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+.wrapper .btn-white-s:hover {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  transition: 0.3s;
+}
+.wrapper header {
+  padding-top: 20px;
+}
+.wrapper header .container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto auto auto;
+}
+.wrapper header .menu {
+  position: relative;
+  left: -130px;
+}
+.wrapper header .menu a {
+  color: #33354D;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.wrapper header #profilepic {
+  width: 46px;
+  position: relative;
+  left: 335px;
+}
+.wrapper main {
+  padding-top: 20px;
+}
+.wrapper main .sin-course #s-course-image {
+  width: 100%;
+}
+.wrapper main .sin-course .container {
+  position: absolute;
+  top: 215px;
+  left: 300px;
+}
+.wrapper main .sin-course .container .badges {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+.wrapper main .sin-course .container .badges #s-best {
+  border: 1px solid #22C55E;
+  width: 100px;
+  text-align: center;
+  background-color: #22C55E;
+  border-radius: 5px;
+  color: white;
+}
+.wrapper main .sin-course .container .badges #s-digital {
+  border: 1px solid #EFF2FC;
+  width: 100px;
+  text-align: center;
+  background-color: #EFF2FC;
+  border-radius: 5px;
+  color: black;
+}
+.wrapper main .sin-course .container .s-course-info {
+  padding-bottom: 40px;
+  cursor: pointer;
+}
+.wrapper main .sin-course .container .s-course-info h2 {
+  font-size: 45px;
+  color: white;
+}
+.wrapper main .sin-course .container .s-course-info p {
+  font-size: 20px;
+  color: rgb(201, 199, 199);
+}
+.wrapper main .sin-course .container .s-rating {
+  display: flex;
+  gap: 20px;
+}
+.wrapper main .sin-course .container .s-rating .s-border {
+  border: 1px solid white;
+  padding-right: 20px;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+.wrapper main .sin-course .container .s-rating #star-gold {
+  color: gold;
+}
+.wrapper main .sin-course .container .s-rating p {
+  color: rgb(201, 199, 199);
+}
+.wrapper main .sin-course .container .s-author {
+  padding-top: 140px;
+}
+.wrapper main .sin-course .container .s-author #fat-white {
+  font-weight: 700;
+}
+.wrapper main .sin-course .container .s-author p {
+  height: 15px;
+  color: white;
+  margin-left: 80px;
+  position: relative;
+  bottom: 55px;
+}
+.wrapper main .course-description {
+  padding-top: 80px;
+}
+.wrapper main .course-description .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.wrapper main .course-description .container .info-course h2 {
+  font-size: 42px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.wrapper main .course-description .container .info-course p {
+  font-size: 17.9px;
+  font-weight: 400;
+  color: #565973;
+}
+.wrapper main .course-description .container .info-course .course-learn h4 {
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+.wrapper main .course-description .container .info-course .course-learn i {
+  color: #6366f1;
+  padding-right: 5px;
+  font-size: 14.5px;
+}
+.wrapper main .course-description .container .course-include {
+  box-shadow: rgb(207, 207, 207) 0px 0px 12px 0px;
+  border-radius: 10px;
+  width: 430px;
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-left: 200px;
+}
+.wrapper main .course-description .container .course-include h4 {
+  padding-bottom: 25px;
+  font-weight: 700;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+.wrapper main .course-description .container .course-include p {
+  color: #565973;
+}
+.wrapper main .course-description .container .course-include img {
+  padding-right: 8px;
+}
+.wrapper main .course-description .container .s-course-price {
+  display: flex;
+  gap: 20px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.wrapper main .course-description .container .s-course-price #s-price {
+  font-size: 35px;
+  font-weight: 700;
+  color: black;
+}
+.wrapper main .course-description .container .s-course-price #s-oldprice {
+  margin-top: 12px;
+  font-size: 21px;
+  text-decoration: line-through;
+  color: #9397AD;
+}
+.wrapper main .course-description .container button {
+  width: 157px;
+  height: 50px;
+}
+.wrapper main .program-details {
+  padding-top: 100px;
+}
+.wrapper main .program-details .container h2 {
+  font-weight: 700;
+  font-size: 42px;
+}
+.wrapper main .program-details .container .program-steps {
+  padding-top: 50px;
+}
+.wrapper main .program-details .container .program-steps #s-div {
+  position: absolute;
+  top: 1540px;
+  left: 344px;
+  z-index: -1;
+}
+.wrapper main .program-details .container .program-steps .steps-flex {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+.wrapper main .program-details .container .program-steps .steps-flex #step-ofs {
+  position: relative;
+  bottom: 10px;
+}
+.wrapper main .program-details .container .program-steps .steps-flex #step-tt {
+  position: relative;
+  bottom: 20px;
+}
+.wrapper main .program-details .container .program-steps .steps-flex #step-5 {
+  position: relative;
+  bottom: 30px;
+}
+.wrapper main .program-details .container .program-steps .steps-flex h4 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.wrapper main .program-details .container .program-steps .steps-flex p {
+  color: #565973;
+  padding-right: 500px;
+  font-size: 17.9px;
+}
+.wrapper footer {
+  padding-top: 180px;
+}
+.wrapper footer .container .socialmedias {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.wrapper footer .container .socialmedias a {
+  background-color: #EFF2FC;
+  border-radius: 7px;
+}
+.wrapper footer .container .socialmedias a:hover {
+  background-color: #c5d2ff;
+  transition: 0.3s;
+}
+.wrapper footer .container .socialmedias a i {
+  margin: 15px 17.5px 15px 17.5px;
+  font-size: 20px;
+  color: #33354D;
+}
+.wrapper footer .container p {
+  text-align: center;
+  font-size: 18px;
+  color: #9397AD;
+}
+.wrapper footer .container .footerrights {
+  padding-bottom: 50px;
+  position: relative;
+  bottom: 12px;
+}

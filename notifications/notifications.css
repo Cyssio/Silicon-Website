@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Inter:wght@300;400;500;700;900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -68,65 +66,10 @@
   text-decoration: none;
   margin-left: 20px;
 }
-.wrapper header .switch {
-  display: flex;
-  padding-top: 7px;
-  position: relative;
-  left: 310px;
-  top: 3px;
-}
-.wrapper header .switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-.wrapper header .switch label {
-  position: relative;
-}
-.wrapper header .switch label .sliderround {
-  display: inline-block;
-  width: 68px;
-  height: 33px;
-  background-color: #565973;
-  border-radius: 200px;
-  cursor: pointer;
-  transition: 0.3s;
-  position: relative;
-}
-.wrapper header .switch label .sliderround::before {
-  position: absolute;
-  content: "";
-  width: 30px;
-  height: 29px;
-  background-color: white;
-  transition: 0.3s;
-  border-radius: 200px;
-  top: 2px;
-  left: 2px;
-}
-.wrapper header .switch label input:checked + .sliderround {
-  background-color: #6366f1;
-}
-.wrapper header .switch label input:checked + .sliderround::before {
-  transform: translateX(34px);
-}
-.wrapper header .switch p {
-  color: #565973;
-  font-size: 18px;
-  font-weight: 500;
-}
-.wrapper header .switch .lightswitch {
-  padding-right: 10px;
-  padding-top: 3px;
-}
-.wrapper header .switch .darkswitch {
-  padding-left: 12px;
-  padding-top: 3px;
-}
 .wrapper header #profilepic {
   width: 46px;
   position: relative;
-  left: 175px;
+  left: 335px;
 }
 .wrapper main {
   padding-top: 20px;
@@ -138,7 +81,7 @@
   border-top: none;
   border-bottom: none;
   border-color: #E2E5F1;
-  height: 1180px;
+  height: 900px;
 }
 .wrapper main .container .account-profile .acc-profileinfo {
   padding-left: 10px;
@@ -205,112 +148,85 @@
   padding-left: 23px;
   padding-right: 8px;
 }
-.wrapper main .container .account-details {
+.wrapper main .container .notifications {
   position: absolute;
   left: 740px;
-  bottom: -265px;
-  width: 855px;
+  bottom: 90px;
+  width: 860px;
 }
-.wrapper main .container .account-details h2 {
+.wrapper main .container .notifications h2 {
   font-size: 40px;
   font-weight: 700;
 }
-.wrapper main .container .account-details h6 {
-  font-size: 23px;
-  color: #6366f1;
+.wrapper main .container .notifications .email-notify {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.wrapper main .container .notifications .email-notify p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.wrapper main .container .notifications .email-notify input {
+  height: 50px;
+  width: 413px;
+  border-radius: 5px;
+  padding: 20px 45px 20px 20px;
+  border: 1px solid #D4D7E5;
+  position: relative;
+  bottom: 12px;
+  font-size: 18px;
+}
+.wrapper main .container .notifications .sub-notify {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+.wrapper main .container .notifications .sub-notify .noti-sliders {
+  position: relative;
+}
+.wrapper main .container .notifications .sub-notify .noti-sliders .sliderround {
+  display: inline-block;
+  width: 68px;
+  height: 33px;
+  background-color: #565973;
+  border-radius: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
+.wrapper main .container .notifications .sub-notify .noti-sliders .sliderround::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 29px;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 200px;
+  top: 2px;
+  left: 2px;
+}
+.wrapper main .container .notifications .sub-notify .noti-sliders input {
+  width: 100px;
+  display: none;
+}
+.wrapper main .container .notifications .sub-notify .noti-sliders input:checked + .sliderround {
+  background-color: #22C55E;
+}
+.wrapper main .container .notifications .sub-notify .noti-sliders input:checked + .sliderround::before {
+  transform: translateX(34px);
+}
+.wrapper main .container .notifications .sub-notify .notify-slidertext h6 {
   font-weight: 700;
-  padding-top: 20px;
+  font-size: 17px;
 }
-.wrapper main .container .account-details .acc-buttons {
-  padding-bottom: 20px;
-  position: relative;
-  bottom: 15px;
+.wrapper main .container .notifications .sub-notify .notify-slidertext p {
+  color: #9397AD;
 }
-.wrapper main .container .account-details h6 {
-  padding-bottom: 20px;
-}
-.wrapper main .container .account-details .basic-info {
-  border: 1px solid;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-color: #E2E5F1;
-}
-.wrapper main .container .account-details .basic-info .form-details {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-}
-.wrapper main .container .account-details .basic-info .form-details .formpositioning {
-  position: relative;
-  bottom: 15px;
-}
-.wrapper main .container .account-details .basic-info .form-details .formpositioning2 {
-  position: relative;
-  bottom: 30px;
-}
-.wrapper main .container .account-details .basic-info .form-details p {
-  font-weight: 600;
-  font-size: 18px;
-}
-.wrapper main .container .account-details .basic-info .form-details input {
-  height: 40px;
-  width: 413px;
-  border-radius: 5px;
-  padding: 20px 45px 20px 20px;
-  border: 1px solid #D4D7E5;
-  position: relative;
-  bottom: 12px;
-}
-.wrapper main .container .account-details .basic-info .form-details textarea {
-  width: 207%;
-  height: 100px;
-  padding: 10px 20px 20px 20px;
-  border-radius: 5px;
-  border: 1px solid #D4D7E5;
-  resize: none;
-  position: relative;
-  bottom: 12px;
-}
-.wrapper main .container .account-details .acc-address {
-  padding-top: 20px;
-  border: 1px solid;
-  border-bottom: none;
-  border-left: none;
-  border-right: none;
-  border-color: #E2E5F1;
-}
-.wrapper main .container .account-details .acc-address p {
-  font-weight: 600;
-  font-size: 18px;
-}
-.wrapper main .container .account-details .acc-address .addresspadding {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.wrapper main .container .account-details .acc-address input {
-  height: 40px;
-  width: 413px;
-  border-radius: 5px;
-  padding: 20px 45px 20px 20px;
-  border: 1px solid #D4D7E5;
-  position: relative;
-  bottom: 12px;
-}
-.wrapper main .container .account-details .acc-address .address-input {
-  height: 40px;
-  width: 100%;
-}
-.wrapper main .container .account-details .acc-address .form-details2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-}
-.wrapper main .container .account-details .acc-address .acc-buttons {
-  margin-top: 40px;
+.wrapper main .container .notifications .acc-buttons {
+  padding-top: 300px;
 }
 .wrapper footer {
-  padding-top: 100px;
+  padding-top: 180px;
 }
 .wrapper footer .container .socialmedias {
   display: flex;
